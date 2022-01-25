@@ -1,57 +1,71 @@
-# learngithub
+# Learn Github
 
-Version Control
-SVN, Tortoise, Mercurial, Git
+## Version Control Systems
+- SVN
+- Mercurial
+- Git
 
-Platforms
-Github, Bitbucket, gitlab, google repositories
+## Git-based source code repository hosting services
+- Github
+- Bitbucket
+- Gitlab
+- Google repositories
 
-cReate github account
+# Steps
 
-create github repo
-1. create with files (you dont have a local folder)
-2. Create without files (u have a local project dir)
+### Create github account
 
-Props of github repo
+### Create a github repo
+
+1. Create with files (if you dont have a project dir)
+2. Create without files (u you have a local project dir)
+
+### Props of github repo
+
 1. repo
 2. url
-https://github.com/nivukite/learngithub (share)
-https://github.com/nivukite/learngithub.git (point to a repo)
-git@github.com:nivukite/learngithub.git
+    - https://github.com/nivukite/learngithub (share)
+    - https://github.com/nivukite/learngithub.git (point to a repo)
+    - git@github.com:nivukite/learngithub.git
 
 3. braches [main]
-main -> production -> develop
-main -> newfeature
+> main -> production -> develop
+> main -> newfeature
 
-Code | Issues | PR | Actions (CI/CD) | Project
+**Code | Issues | PR | Actions (CI/CD) | Project**
 
-Install git software
-Git GUI/ Git Bash
+### Install git software
+> Git GUI/ Git Bash
 
 Commands
 ```
 git --help
 ```
-make a local copy of your repo
+Make a local copy of your repo
 HTTPS -> everytime u need to enter the password
 ```
 git clone https://github.com/nivukite/learngithub.git
 git branch
 git checkout <branch_name>
+> Ex: git checkout main
 git pull
 ```
 
-Add files, make changes to code
+Add files and make changes to code
 ```
-git status
+git staus
 git add . (all all changes [file change, new file]
 git add <file_name>
+> Ex: git add main.txt
 git commit -m "Added new file prod.txt"
 git push
 
 ```
-create a pull request [code merge]
+Create a pull request [code merge]
 
+1. Create PR using github pltform
+
+### Initialize a existing project repo
 
 ```
 git init
@@ -62,6 +76,12 @@ git remote add origin https://github.com/nivukite/gitwofiles.git
 git push -u origin main
 ```
 
+### Other Features
+
+- Git fork
+- Managing git merge confilcts
+- Git stash
+
 ```
 git stash
 git stash list
@@ -69,6 +89,4 @@ git stash apply
 
 ```
 
-- Git fork
-- Git merge confilcts
-- git stash
+
