@@ -53,3 +53,15 @@ git push
 create a pull request [code merge]
 
 
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nivukite/gitwofiles.git
+git push -u origin main
+```
+
+- Git fork
+- Git merge confilcts
+- git stash

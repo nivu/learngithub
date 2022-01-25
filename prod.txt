@@ -3,3 +3,8 @@ production code
 U - Untracked files
 M - Modified
 D - Deleted
+
+new line added
+sfsdf
+dfsdf
+sdfsd
