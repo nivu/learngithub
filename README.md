@@ -90,3 +90,11 @@ git stash apply
 ```
 
 
+#### Task
+
+- Fork this repo
+- Create a new file rollno_name_gollege_year_dept.txt
+- 42_nivu_cas_2_ece.txt
+- Raise PR to the master repo
+
+
