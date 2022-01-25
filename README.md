@@ -62,6 +62,13 @@ git remote add origin https://github.com/nivukite/gitwofiles.git
 git push -u origin main
 ```
 
+```
+git stash
+git stash list
+git stash apply
+
+```
+
 - Git fork
 - Git merge confilcts
 - git stash
