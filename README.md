@@ -1,5 +1,12 @@
 # learngithub
 
+## TAsk
+
+- fork the repo
+- create a new file rollno_name_gollege_year_dept.txt
+- 42_nivu_cas_2_ece.txt
+- raise pr to the master repo
+
 Version Control
 SVN, Tortoise, Mercurial, Git
 
